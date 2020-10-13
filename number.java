@@ -1,0 +1,20 @@
+1.	public class PrimeExample{    
+2.	 public static void main(String args[]){    
+3.	  int i,m=0,flag=0;      
+4.	  int n=3;//it is the number to be checked    
+5.	  m=n/2;      
+6.	  if(n==0||n==1){  
+7.	   System.out.println(n+" is not prime number");      
+8.	  }else{  
+9.	   for(i=2;i<=m;i++){      
+10.	    if(n%i==0){      
+11.	     System.out.println(n+" is not prime number");      
+12.	     flag=1;      
+13.	     break;      
+14.	    }      
+15.	   }      
+16.	   if(flag==0)  { System.out.println(n+" is prime number"); }  
+17.	  }//end of else  
+18.	}    
+19.	}   
+
